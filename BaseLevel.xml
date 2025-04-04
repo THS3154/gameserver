@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster monsterid="0" x="900" y="600" z="-150"></Monster>
+  <Monster monsterid="0" x="1000" y="800" z="-150"></Monster>
+  <Monster monsterid="0" x="1100" y="1000" z="-150"></Monster>
+  <Monster monsterid="0" x="1200" y="1200" z="-150"></Monster>
+  <Monster monsterid="0" x="1300" y="1400" z="-150"></Monster>
+  <Monster monsterid="0" x="1500" y="1600" z="-150"></Monster>
+  
+  <Monster monsterid="0" x="410" y="640.0" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="350" y="640.0" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="290" y="660.0" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="240" y="680.0" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="-90.0" y="460" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="-50" y="290" z="-259.9374"></Monster>
+  <Monster monsterid="0" x="-500" y="490" z="-259.9374"></Monster>
+  
+  <Monster monsterid="0" x="2660.0" y="2830.0" z="-113.303205"></Monster>
+  <Monster monsterid="0" x="2840.0" y="2830.0" z="-97.208592"></Monster>
+  <Monster monsterid="0" x="2690.0" y="3040.0" z="-124.225439"></Monster>
+  <Monster monsterid="0" x="2610.0" y="3170.0" z="-150.124646"></Monster>
+  <Monster monsterid="0" x="2810.0" y="3440.0" z="-144.079712"></Monster>
+  <Monster monsterid="0" x="2640.0" y="3440.0" z="-161.073312"></Monster>
+  
+  <Monster monsterid="0" x="5200.0" y="3070.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5350.0" y="3070.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5450.0" y="3070.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5550.0" y="3070.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5650.0" y="3070.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5250.0" y="2900.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5200" y="2900.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5350" y="2900.0" z="-259.937394"></Monster>
+  <Monster monsterid="0" x="5550" y="2900.0" z="-259.937394"></Monster>
+
+</Monsters>

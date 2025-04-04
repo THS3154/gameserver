@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bc726b98-0056-4503-a0c2-80ba1ec875a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e2a46fcb-8763-4e34-a1af-1519c83c3c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{320963af-cdc4-40d2-8c92-389af67d5c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\Proto">
+      <UniqueIdentifier>{4780f155-c40c-4926-8653-1d917e0ba702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents">
+      <UniqueIdentifier>{f1edb98c-c149-44f4-a15a-e11a4f99d6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\DB">
+      <UniqueIdentifier>{8397a897-b5c1-4a02-82be-aa4c997ac632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Object">
+      <UniqueIdentifier>{d8f590fe-2a5e-4007-817e-317b8dfcca86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Room">
+      <UniqueIdentifier>{e093356e-1319-44a5-979d-9422f06b9c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Room\Levels">
+      <UniqueIdentifier>{d98688e3-3044-4d37-a722-14b531442bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\MonsterTable">
+      <UniqueIdentifier>{97e76b3b-ad40-4334-bede-0d2e0cdd95e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Room\Utils">
+      <UniqueIdentifier>{18cd7559-d15d-4671-a034-e291077c5261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{f5c77144-252c-4a51-8425-50656366d079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Player">
+      <UniqueIdentifier>{bdadd2b9-7eda-4110-af8b-e47601d8aa53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSessionManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameContents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>GameContents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>GameContents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>GameContents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>GameContents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>GameContents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GameContents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLevel.cpp">
+      <Filter>GameContents\Room\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTable.cpp">
+      <Filter>GameContents\MonsterTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterInfo.cpp">
+      <Filter>GameContents\MonsterTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterUtil.cpp">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUtil.cpp">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicUtil.cpp">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDB.cpp">
+      <Filter>Main\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLevel.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGold.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServerPacketHandler.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Main\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSession.cpp">
+      <Filter>Main\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBProtocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemUtils.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEquiment.cpp">
+      <Filter>GameContents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosDunjeon.cpp">
+      <Filter>GameContents\Room\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnTable.cpp">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginRoom.cpp">
+      <Filter>GameContents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>GameContents\Room</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSessionManager.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketHandler.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameContents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>GameContents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>GameContents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>GameContents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>GameContents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GameContents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLevel.h">
+      <Filter>GameContents\Room\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTable.h">
+      <Filter>GameContents\MonsterTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterInfo.h">
+      <Filter>GameContents\MonsterTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterUtil.h">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUtil.h">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicUtil.h">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDB.h">
+      <Filter>Main\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLevel.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGold.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServerPacketHandler.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Main\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSession.h">
+      <Filter>Main\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBProtocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemUtils.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventory.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEquiment.h">
+      <Filter>GameContents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosDunjeon.h">
+      <Filter>GameContents\Room\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>GameContents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnTable.h">
+      <Filter>GameContents\Room\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginRoom.h">
+      <Filter>GameContents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>GameContents\Room</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Protobuf\Protocol.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\Struct.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\Enum.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\GenPackets.bat">
+      <Filter>Protocol</Filter>
+    </None>
+    <None Include="..\Common\Protobuf\DBProtocol.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GameDB.xml">
+      <Filter>Main\DB</Filter>
+    </Xml>
+    <Xml Include="items.xml">
+      <Filter>Items</Filter>
+    </Xml>
+    <Xml Include="MonsterInfo.xml">
+      <Filter>GameContents\MonsterTable</Filter>
+    </Xml>
+    <Xml Include="BaseLevel.xml">
+      <Filter>GameContents\Room\Levels</Filter>
+    </Xml>
+    <Xml Include="ChaosDunjeon.xml">
+      <Filter>GameContents\Room\Levels</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

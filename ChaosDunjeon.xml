@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster monsterid="0" x="1220.0" y="640.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="1910.0" y="230.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2530.0" y="-220.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2050.0" y="-370.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="1660.0" y="-750.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="1300.0" y="-1250.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="1580.0" y="-1600.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2010.0" y="-1600.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2010.0" y="-2050.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="890.0" y="-2050.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="240.0" y="-2130.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="-120.0" y="-1850.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2470.0" y="-1850.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2130.0" y="-2130.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2170.0" y="-1210.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2320.0" y="-1680.0" z="-39.999778"></Monster>
+  <Monster monsterid="0" x="2600.0" y="-2010.0" z="-39.999778"></Monster>
+</Monsters>

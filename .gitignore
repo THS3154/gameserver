@@ -1,0 +1,23 @@
+db_config.h
+
+# 빌드 결과
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.pch
+*.lib
+*.sdf
+*.log
+*.ipch
+
+# 빌드 폴더
+Debug/
+Release/
+x64/
+Binary/
+
+# Visual Studio 설정
+.vs/
+*.user
+*.VC.db

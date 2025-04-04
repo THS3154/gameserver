@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="1001">
+    <Name>레드 포션</Name>
+    <Type>Consumable</Type>
+    <Heal>5000</Heal>
+    <Icon>/Game/IMG/hp.hp</Icon>
+    <Drop>0.1</Drop>
+  </Item>
+  <Item id="2001">
+    <Name>장검</Name>
+    <Slot>weapon</Slot>
+    <Type>Equipment</Type>
+    <Attack>5000</Attack>
+    <Critical>15</Critical>
+    <CriticalRate>30</CriticalRate>
+    <Icon>/Game/IMG/sword.sword</Icon>
+    <Drop>0.1</Drop>
+  </Item>
+  <Item id="3001">
+    <Name>헬멧</Name>
+    <Slot>head</Slot>
+    <Type>Equipment</Type>
+    <Defense>50</Defense>
+    <Hp>3000</Hp>
+    <Icon>/Game/IMG/head.head</Icon>
+    <Drop>0.1</Drop>
+  </Item>
+</Items>

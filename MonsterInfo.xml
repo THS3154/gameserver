@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster id="0">
+    <Name>고블린</Name>
+    <Hp>500</Hp>
+    <Mp>0</Mp>
+    <Shield>0</Shield>
+    <Speed>200</Speed>
+    <SearchRadius>1000</SearchRadius>
+    <RegenTime>3000</RegenTime>
+    <Exp>50</Exp>
+    <Gold>100</Gold>
+    <DropTable>
+      <Drop code="1001" rate="0.1" />
+      <Drop code="2001" rate="0.05" />
+      <Drop code="3001" rate="0.05" />
+    </DropTable>
+  </Monster>
+
+  <Monster id="1">
+    <Name>테스트몬스터</Name>
+    <Hp>1000</Hp>
+    <Mp>0</Mp>
+    <Shield>0</Shield>
+    <Speed>200</Speed>
+    <SearchRadius>1000</SearchRadius>
+    <RegenTime>3000</RegenTime>
+    <Exp>50</Exp>
+    <Gold>100</Gold>
+    <DropTable>
+      <Drop code="1001" rate="0.15" />
+      <Drop code="2001" rate="0.1" />
+      <Drop code="3001" rate="0.1" />
+    </DropTable>
+  </Monster>
+  
+</Monsters>
